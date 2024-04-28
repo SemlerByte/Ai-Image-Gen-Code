@@ -1,4 +1,4 @@
-import discord
+7import discord
 from discord.ext import commands
 import aiohttp
 import asyncio
@@ -51,7 +51,7 @@ async def imagine(ctx, *, prompt: str):
 
     # Set up the data to send in the request
     data = {
-        "model": "RealVisXLV40Turbo-40",
+        "model": "MooMooFusion-V30",
         "prompt": prompt,
         "token": api_key,
     }
